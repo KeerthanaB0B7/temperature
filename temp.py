@@ -23,7 +23,7 @@ def convert_temperature(value, input_scale, output_scale):
     else:
         return value
 
-# Example usage:
+
 celsius = 25
 fahrenheit = convert_temperature(celsius, 'C', 'F')
 kelvin = convert_temperature(celsius, 'C', 'K')
